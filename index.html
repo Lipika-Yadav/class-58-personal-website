@@ -1,59 +1,57 @@
 <html>
-<head>
-    <title>project 58</title>
+<head><title>Grid and slide view</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
-<body>
-    <center>
-    <ul class="menu">
-        <li class="links"><a href="#welcome"></a>About</li>
-         <li class="links"><a href="#videos"></a>Videos </li>
-         <li class="links"><a href="#work"></a>My work</li>
-         <li class="links"><a href="#inspiration"></a>Inspiration</li>
-         <li class="links"><a href="#contact"></a>Contact</li>
+    <body>
+        <ul class="menu">
+        <li class="links">Home</li>
+            <li class="links">Grid View</li>
+            <li class="links">Slide View</li>
         </ul>
-    </center>
-    <img src="71kkMXAcLCL._AC_UL600_SR600,600_.jpg">
-    <br> <br>
-    <h2>My favorite hobby is Singing and listening music</h2>
-    <hr>
-    <br>
-    <p>My favorite hobby is singing and listening music. Whenever I feel low, the best therapy is music, soothing and relaxing </p>
-    <h1>Here are some of my favorite songs looping on my playlist currently</h1>
-    <section id="videos">
-    <h1>Videos</h1>
-        <div class ="line"></div>
-        <br>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/PNozaFzqOvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/lFcSrYw-ARY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
         
-    </section>
-    <section id="work">
-    <h1>Work I like</h1>
-        <div class="line"></div>
-        <iframe width="853" height="480" src="https://en.wikipedia.org/wiki/Singing"frameborder="0"></iframe>
-    </section>
-    
-    <section id="inspiration">
-    <h1>My Inspiration</h1>
-    <div id="line"></div>
-        <a href="https://en.wikipedia.org/wiki/Akshay_Kumar" target="_blank">
-        <img src="2020_11$largeimg_435767114.jpg">
-        </a>
-    </section>
-    <section id="contact">
-    <h1>Contact</h1>
-        <div class="line">
+    <div class ="container">
+        <section id="home">
+        <div id="line"></div>
+            <img id="main_img" src="doraemon--621x414.webp">
+        </section>
+        <br> <br>
+        <section id="grid-view">
+            <h1>Grid View Pictures</h1>
+        <div id="line"></div>
+            <span>
+            <img src="sinchan.jpeg">
+                <img src="pickachu.jpg">
+                <img src="mickey.jpg">
+                <img src="doraemon.jpg">
+            </span>
+            
+        </section>
+        <br>
+        <br>
+        <section id="slide_view">
+        <h1>Slide view pictures</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                <center>
+                    <img src="sinchan.jpeg" class="img-responsive">
+                
+                    </center></div>
+                <div class="item">
+                <center>
+                    <img src="pickachu.jpg" class="img-responsive">
+                    </center></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyhicon-chevron-left"></span></a>
+                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyhicon-chevron-right"></span></a>
+            </div>
+            
+        </section>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112333.7777810831!2d79.35189946733422!3d28.3760608989121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a007334d02998d%3A0x5b9d44cf31ee87f!2sBareilly%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1620218775166!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-    <section id="contact1">
-    </section>
-    <a href="mailto:lipika.kanyal@gmail.com?Subject=Hello">
-    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>lipika.kanyal@gmail.com</h3>
-    </a>
-    </body></html>
+    </body>
+</html> 
